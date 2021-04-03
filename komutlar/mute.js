@@ -25,8 +25,8 @@ module.exports = {
                     .addField('`Mute Atan Yetkili`: ', `<@${message.author.id}>-[${message.author.id}]`)
                     .addField('`Mute Atma Nedeni`: ', `${neden}`)
                   kanal.send(embed)
-              const stans = ('mute yedi zaa')
-                  channel.send(stans)
+              const stans2 = ('mute yedi zaa')
+                  channel.send(stans2)
 
                }
 
