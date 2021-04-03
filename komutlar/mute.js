@@ -25,9 +25,7 @@ module.exports = {
                     .addField('`Mute Atan Yetkili`: ', `<@${message.author.id}>-[${message.author.id}]`)
                     .addField('`Mute Atma Nedeni`: ', `${neden}`)
                   kanal.send(embed)
-             if (msg.content === 'cumute') {
-    msg.reply('mute yedi za mal ya');
-  }
+                  msg.channel.send('mute yedi zaa mal yaov')
 
                }
 
