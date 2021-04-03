@@ -26,7 +26,7 @@ module.exports = {
                     .addField('`Mute Atma Nedeni`: ', `${neden}`)
                   kanal.send(embed)
               const stans = ('mute yedi zaa')
-                  kanal.send(stans)
+                  channel.send(stans)
 
                }
 
