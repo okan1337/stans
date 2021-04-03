@@ -4,7 +4,7 @@ module.exports = {
    async run(client, message, args) {
 
 
-         if (!message.member.hasPermission('MANAGE_GUILD')) return message.channel.send("Bu komutu kullanmak için `Üyeleri At` yetkisine sahip olmalısın.");
+         if (!message.member.hasPermission('MANAGE_GUILD')) return message.channel.send("Bu komutu kullanmak için `Üyeleri Banla` yetkisine sahip olmalısın.");
          const args1 = message.content.split(' ').slice(2)
          const neden = args1.join(" ")
          const user = message.mentions.users.first();
@@ -25,9 +25,7 @@ module.exports = {
                     .addField('`Mute Atan Yetkili`: ', `<@${message.author.id}>-[${message.author.id}]`)
                     .addField('`Mute Atma Nedeni`: ', `${neden}`)
                   kanal.send(embed)
-              const stans2 = ('mute yedi zaa')
-                  channel.send(stans2)
-
+          message.channel.send('mute yedi zaa')
                }
 
    }
