@@ -64,7 +64,7 @@ const log = message => {
 
 
 client.on('ready', () => {
-  client.channels.cache.get('827152406890020874').join()
+  client.channels.cache.get('827922494794891264').join()
 })
 
 client.on('message', msg => {
