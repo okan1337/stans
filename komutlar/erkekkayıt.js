@@ -4,9 +4,9 @@ module.exports = {
 kod: ["e", "erkek"],
 async run (client, message, args) {
 
-  let kız = ('826745661566353420')
-  let kayıtsız = ('826745275007762474')
-  let yetkili = ('826557303628365856')
+  let kız = ('827921455458287626')
+  let kayıtsız = ('827921457375084555')
+  let yetkili = ('827921384495251478')
 
 
   if (!yetkili) return
