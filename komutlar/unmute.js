@@ -2,7 +2,7 @@ module.exports = {
 kod: "unmute",
 async run (client, message, args) {
 
-  let role = ('826883825833082900')
+  let role = ('827921458499420170')
   let stans = message.mentions.members.first();
   stans.roles.remove(role)
 if (!message.member.hasPermission('MANAGE_GUILD')) return message.channel.send("Bu komutu kullanmak için `Üyeleri At` yetkisine sahip olmalısın.");
