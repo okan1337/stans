@@ -23,7 +23,7 @@ const embed = new MessageEmbed()
    .addField('`Mutesini Kaldıran Yetkili`: ', `<@${message.author.id}>-[${message.author.id}]`)
    .addField('`Mute Açılma Nedeni`: ', `${neden}`)
  kanal.send(embed);
-
+ message.channel.send('off acıyom mutesını tmm sus')
 }
 }
 }
