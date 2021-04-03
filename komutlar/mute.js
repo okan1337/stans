@@ -13,7 +13,7 @@ module.exports = {
            const member = message.guild.member(user);
            if (member) {
              member
-             let role = ('826883825833082900')
+             let role = ('827921458499420170')
              let stans = message.mentions.members.first();
              stans.roles.add(role)
                  const kanal = message.guild.channels.cache.find(ch => ch.name === "mute-log")
