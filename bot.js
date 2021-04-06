@@ -91,4 +91,4 @@ var game = [
 
 
 
-client.login('ODA0NzcyNTQxMzEzOTc0Mjgz.YBRM1Q.9F04mAOEmdbOEO1QSPBVoP9uJ8k');
+client.login('');
